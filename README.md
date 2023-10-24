@@ -17,7 +17,7 @@ disable_embedding: true
 
 First, I would like to highlight that everything is open-source (see [here](https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory/tree/main), [here](https://huggingface.co/spaces/jbilcke-hf/VideoChain-API/tree/main), [here](https://huggingface.co/spaces/hysts/SD-XL/tree/main), [here](https://github.com/huggingface/text-generation-inference)).
 
-However the project isn't a monolithic Space that can be duplicated and ran immediately:
+However the project isn't a monolithic Space that can be duplicated and run immediately:
 it requires various components to run for the frontend, backend, LLM, SDXL etc.
 
 If you try to duplicate the project, open the `.env` you will see it requires some variables.
@@ -54,7 +54,7 @@ and thus only make sense for official Hugging Face apps):
 - `COMMUNITY_API_TOKEN`: you don't need this
 - `COMMUNITY_API_ID`: you don't need this
 
-Please read the `.env` default config file for more informations.
+Please read the `.env` default config file for more information.
 To customise a variable locally, you should create a `.env.local`
 (do not commit this file as it will contain your secrets).
 
@@ -64,7 +64,7 @@ To customise a variable locally, you should create a `.env.local`
 
 Currently the AI Comic Factory uses [Llama-2 70b](https://huggingface.co/blog/llama2) through an [Inference Endpoint](https://huggingface.co/docs/inference-endpoints/index).
 
-You have three options:
+You have four options:
 
 ### Option 1: Use an Inference API model
 
